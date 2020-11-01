@@ -1,0 +1,56 @@
+﻿
+@font-face {
+    font-family: myFontB;
+    src: url('../fonts/GE_SS_Two_Bold.otf') format('opentype');
+}
+
+@font-face {
+    font-family: myFontM;
+    src: url('../fonts/GE_SS_Two_Medium.otf') format('opentype');
+}
+
+@font-face {
+    font-family: myFontL;
+    src: url('../fonts/GE_SS_Two_Light.otf') format('opentype');
+}
+@font-face {
+    font-family: ge-dinarone;
+    src: url('../fonts/ge-dinarone-bold_8 - Copy.ttf') format('truetype');
+}
+
+
+.name {
+    font-size: 36px;
+    font-size: 36px;
+    font-size: 36px;
+    text-align: center;
+    color: #06c4a6;
+    font-family: myFontM;
+}
+
+.contact {
+    background-color: #fff;
+    border-color: #d2d2d229;
+    border-style: outset;
+    height: 180px;
+    width: 350px;
+    margin-top: 50px;
+    text-align: center;
+    padding-top: 10px;
+    font-family: myFontL;
+    border-width: thick;
+}
+.h3, h3 {
+  
+    font-family: ge-dinarone;
+}
+
+.h4, h4 {
+    font-size: 18px;
+    margin-top: 25px;
+}
+body {
+    padding-top: 60px;
+    padding-bottom: 100px;
+    min-height: 50px;
+}

@@ -1,0 +1,32 @@
+﻿
+@font-face {
+    font-family: myFontB;
+    src: url('../fonts/GE_SS_Two_Bold.otf') format('opentype');
+}
+
+@font-face {
+    font-family: myFontM;
+    src: url('../fonts/GE_SS_Two_Medium.otf') format('opentype');
+}
+
+@font-face {
+    font-family: myFontL;
+    src: url('../fonts/GE_SS_Two_Light.otf') format('opentype');
+}
+
+
+
+.form-horizontal {
+    font-family: myFontL;
+}
+
+.title {
+   
+    font-family: myFontB;
+    color: #06c4a6;
+    
+}
+.view {
+    font-family: myFontL;
+    color: #a94442;
+}

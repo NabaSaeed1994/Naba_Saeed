@@ -1,0 +1,46 @@
+﻿
+@font-face {
+    font-family: myFontB;
+    src: url('../fonts/GE_SS_Two_Bold.otf') format('opentype');
+}
+
+@font-face {
+    font-family: myFontM;
+    src: url('../fonts/GE_SS_Two_Medium.otf') format('opentype');
+}
+
+@font-face {
+    font-family: myFontL;
+    src: url('../fonts/GE_SS_Two_Light.otf') format('opentype');
+}
+
+
+
+
+.namecourse {
+    font-size: 36px;
+    font-size: 36px;
+    font-size: 36px;
+    text-align: center;
+    color: #06c4a6;
+    font-family: myFontM;
+}
+a {
+    color: #808080;
+    text-decoration: none;
+    font-family: myFontL;
+}
+
+
+.contact {
+    background-color: #fff;
+    border-color: #d2d2d229;
+    border-style: outset;
+    height: 200px;
+    width: 350px;
+    margin-top: 50px;
+    text-align: center;
+    padding-top: 10px;
+    font-family: myFontL;
+    border-width: thick;
+}

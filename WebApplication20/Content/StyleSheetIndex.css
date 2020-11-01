@@ -1,0 +1,73 @@
+﻿
+@font-face {
+    font-family: myFontB;
+    src: url('../fonts/GE_SS_Two_Bold.otf') format('opentype');
+}
+
+@font-face {
+    font-family: myFontM;
+    src: url('../fonts/GE_SS_Two_Medium.otf') format('opentype');
+}
+
+@font-face {
+    font-family: myFontL;
+    src: url('../fonts/GE_SS_Two_Light.otf') format('opentype');
+}
+
+
+
+
+.namecourse {
+    font-size: 36px;
+    font-size: 36px;
+    font-size: 36px;
+    text-align: center;
+    color: #06c4a6;
+    font-family: myFontM;
+
+}
+
+
+
+
+.index {
+    height: 380px;
+    width: 300px;
+    text-align: center;
+    font-family: myFontM;
+    padding-right: 11px;
+    background-repeat: no-repeat;
+    background-position: top;
+    margin-right: 10px;
+    margin-left: 50px;
+    margin-top: 2px;
+    margin-bottom: 300px;
+    color: #06c4a6;
+    tab-size: 20px;
+}
+
+audio, canvas, progress, video, img{
+   
+    height: 380px;
+    width: 300px;
+  
+}
+
+
+
+.subnamecourse {
+    font-size: 18px;
+    color: #06c4a6;
+    font-family: myFontM;
+    text-align: center;
+    background-color: #fff;
+    border-color: #d2d2d229;
+    border-style: outset;
+    height: 80px;
+    width: 300px;
+    PADDING-TOP: 30PX;
+    margin-top: 0px;
+}
+
+
+

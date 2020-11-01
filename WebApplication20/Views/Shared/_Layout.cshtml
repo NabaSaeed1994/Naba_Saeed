@@ -1,0 +1,89 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>@ViewBag.Title - نبأ السلطان </title>
+    @Styles.Render("~/Content/css")
+    @Scripts.Render("~/bundles/modernizr")
+</head>
+<body>
+    <div class="navbar navbar-default navbar-fixed-top">
+        <div class="container">
+            <div class="navbar-header navbar-right">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target=".navbar-collapse">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                @*@Html.ActionLink("اسم الموقع", "Index", "Home", new { area = "" }, new { @class = "navbar-brand" })*@
+            </div>
+            <div class="navbar-collapse collapse">
+                <ul class="nav navbar-nav navbar-right">
+
+                    <li>
+                        <a href="~/Home/Contact"> تواصل معنا  <i class="glyphicon glyphicon-phone"></i>  </a>
+
+                    </li>
+                    <li>
+                        
+                        <a href="~/Home/Book"> كتيب <i class="glyphicon glyphicon-book"></i>  </a>
+
+                    </li>
+
+                    <li>
+                        <a href="~/Home/Logo"> شعارات <i class="glyphicon glyphicon-adjust"></i>  </a>
+
+                    </li>
+
+
+                    <li>
+                        <a href="~/Home/InfoGraphic"> انفوجرافيك <i class="	glyphicon glyphicon-edit"></i>  </a>
+
+                    </li>
+
+                    <li>
+
+
+                        <a href="~/Home/Motion">موشن جرافيك <i class="glyphicon  glyphicon-facetime-video"></i>  </a>
+                    </li>
+
+                    <li>
+                        <a href="~/Home/Index"> الصفحة الرئيسية <i class="glyphicon glyphicon-home"></i>  </a>
+
+                    </li>
+
+              
+                </ul>
+
+
+
+
+
+            </div>
+        </div>
+    </div>
+    <div class="container body-content" style="min-height:65px;">
+        @RenderBody()
+    </div>
+
+
+    <footer>
+        <div class="navbar navbar-default navbar-fixed-bottom">
+            <div class="subfooter ">
+                <p>&copy; @DateTime.Now.Year -جميع الحقوق محفوظة بواسطة نبأ آل سلطان </p>
+            </div>
+            </div>
+
+    </footer>
+
+
+
+
+    <script src="~/Scripts/jquery.js"></script>
+
+    <script src="~/Scripts/bootstrap.min.js"></script>
+
+
+</body>
+</html>
